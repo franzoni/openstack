@@ -10,7 +10,7 @@
 write-mime-multipart --output=devel-openstack-vm-userdata_combined.txt devel-openstack-vm-userdata_shell.txt:text/x-shellscript devel-openstack-vm-userdata_cloud-config.txt
 ```
 
-3. Create an ssh key and load it with a name, so it's know to openstack, see [instructions](https://clouddocs.web.cern.ch/clouddocs/using_openstack/keypair_options.html)
+3. Create an ssh key and load it with a name, so it's known to openstack, see [instructions](https://clouddocs.web.cern.ch/clouddocs/using_openstack/keypair_options.html)
 
 4. Decide which [image](https://clouddocs.web.cern.ch/clouddocs/details/standard_images.html) and  [flavor](https://clouddocs.web.cern.ch/clouddocs/using_openstack/vm_flavors.html) you want to use
 
